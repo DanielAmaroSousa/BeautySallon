@@ -14,7 +14,6 @@ const servico = new Schema({
     },
     foto: {
         type: String,
-        required: true,
     },
     preco: {
         type: Number,
