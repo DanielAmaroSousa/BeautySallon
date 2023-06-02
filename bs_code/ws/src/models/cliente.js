@@ -14,7 +14,6 @@ const cliente = new Schema({
     },
     senha: {
         type: String,
-        required: true,
         default: null,
     },
     telefone: {

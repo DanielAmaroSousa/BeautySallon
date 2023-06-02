@@ -9,7 +9,6 @@ const colaborador = new Schema({
     },
     foto: {
         type: String,
-        required: true,
     },
     email: {
         type: String,
@@ -17,7 +16,7 @@ const colaborador = new Schema({
     },
     senha: {
         type: String,
-        required: true,
+        default: null,
     },
     telefone: {
         type: String,
@@ -41,20 +40,20 @@ const colaborador = new Schema({
     contaBancaria: {
         titular: {
             type: String,
-            required: true,
+            //required: true,
         },
         banco: {
             type: String,
-            required: true,
+            //required: true,
         },
         iban: {
             type: String,
-            required: true,
+            //required: true,
         },
     },
     recepientId: {
         type: String,
-        required: true,
+        //required: true,
     },
     dataCadastro: {
         type: Date,

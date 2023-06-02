@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\web",
+    "\\web\\src",
+    "\\web\\src\\assets",
+    "\\web\\src\\components",
+    "\\web\\src\\pages",
+    "\\web\\src\\pages\\Agendamentos",
+    "\\web\\src\\pages\\Clientes",
+    "\\web\\src\\store\\modules",
+    "\\web\\src\\store\\modules\\agendamento"
+  ],
+  "SelectedNode": "\\web\\src\\assets\\logo.png",
+  "PreviewInSolutionExplorer": false
+}
