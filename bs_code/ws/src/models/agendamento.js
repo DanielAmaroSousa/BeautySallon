@@ -37,8 +37,14 @@ const agendamento = new Schema({
     }, 
     transactionId: {
         type: String,
-        required: true,
+        //required: true,
     }, 
+    status: {
+        type: String,
+        enum: ['A', 'I'],
+        required: true,
+        default: 'A',
+    },
     dataCadastro: {
         type: Date,
         default: Date.now,

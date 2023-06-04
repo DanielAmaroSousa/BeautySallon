@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web",
-    "\\web\\src",
-    "\\web\\src\\assets",
-    "\\web\\src\\components",
-    "\\web\\src\\pages",
-    "\\web\\src\\pages\\Agendamentos",
-    "\\web\\src\\pages\\Clientes",
-    "\\web\\src\\store\\modules",
-    "\\web\\src\\store\\modules\\agendamento"
+    "\\ws",
+    "\\ws\\src",
+    "\\ws\\src\\models",
+    "\\ws\\src\\routes",
+    "\\ws\\src\\utils"
   ],
-  "SelectedNode": "\\web\\src\\assets\\logo.png",
+  "SelectedNode": "\\ws\\src\\utils\\util.js",
   "PreviewInSolutionExplorer": false
 }
